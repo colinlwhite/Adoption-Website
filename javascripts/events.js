@@ -7,8 +7,17 @@ const sortPets = (e) => {
         if (type === 'cat') {
             const filteredPets = petsArray.filter(x => x.type === type);
             petBuilder(filteredPets);
-    } 
-};
+    } else {
+        if (type === 'dog') {
+            const filteredPets = petsArray.filter(x => x.type === type);
+            petBuilder(filteredPets);
+        }
+    } if 
+        (type === 'dino') {
+            const filteredPets = petsArray.filter(x => x.type === type);
+            petBuilder(filteredPets);
+        }
+    };
 
 
 
