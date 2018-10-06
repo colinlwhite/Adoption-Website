@@ -13,7 +13,7 @@ const getPetz = () => {
 const petBuilder = (newArray) => {
     let domString = ''; 
     for (let i = 0; i < newArray.length; i++ ) {
-        domString += `<div class="col-2 character-card" id="">`;
+        domString += `<div class="col-2 pet-card" id="">`;
         domString += `<div class="card">`;
         domString += `<img class="card-img-top img" src="${newArray[i].imageUrl}" alt="${newArray[i].name}">`;
         domString += `<div class="card-body">`;
