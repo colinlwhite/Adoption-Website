@@ -3,5 +3,4 @@ const printToDom = (stringToPrint) => {
     printHere.innerHTML = stringToPrint;
 }; 
 
-
 export {printToDom};

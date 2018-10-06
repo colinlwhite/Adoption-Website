@@ -8,7 +8,7 @@ const setPets = (newArray) => {
 
 const getPetz = () => {
     return pets;
-}
+};
 
 const petBuilder = () => {
     let domString = ''; 
