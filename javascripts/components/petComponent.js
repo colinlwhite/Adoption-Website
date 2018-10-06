@@ -26,5 +26,5 @@ const petBuilder = (newArray) => {
     printToDom(domString);
 };
 
-export {setPets, petBuilder, getPetz, pets}
+export {setPets, petBuilder, getPetz}
 
