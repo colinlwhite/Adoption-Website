@@ -1,35 +1,14 @@
 import {printToDom} from '../helpers/util.js';
 
-const pets = [
-    { 
-        name: "Dusty", 
-        color: "Green", 
-        specialSkill: "Gives sincere apologies.", 
-        type: "cat", 
-        imageUrl: "http://kittentoob.com/wp-content/uploads/2015/06/funny-cat-with-a-towel.jpg" 
-    },
-    { 
-        name: "Dusty", 
-        color: "Green", 
-        specialSkill: "Gives sincere apologies.", 
-        type: "cat", 
-        imageUrl: "http://kittentoob.com/wp-content/uploads/2015/06/funny-cat-with-a-towel.jpg" 
-    },
-    { 
-        name: "Dusty", 
-        color: "Green", 
-        specialSkill: "Gives sincere apologies.", 
-        type: "cat", 
-        imageUrl: "http://kittentoob.com/wp-content/uploads/2015/06/funny-cat-with-a-towel.jpg" 
-    },
-    { 
-        name: "Dusty", 
-        color: "Green", 
-        specialSkill: "Gives sincere apologies.", 
-        type: "cat", 
-        imageUrl: "http://kittentoob.com/wp-content/uploads/2015/06/funny-cat-with-a-towel.jpg" 
-    }
-];
+let pets = [];
+
+const setPets = (newArray) => {
+    pets = newArray;
+};
+
+const getPetz = () => {
+    return pets;
+}
 
 const petBuilder = () => {
     let domString = ''; 
@@ -46,5 +25,5 @@ const petBuilder = () => {
     printToDom(domString);
 };
 
-petBuilder();
+export {setPets, petBuilder, getPetz}
 
