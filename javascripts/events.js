@@ -4,16 +4,16 @@ import {petBuilder, getPetz} from './components/petComponent.js'
 const sortPets = (e) => {
     const type = e.target.id;
     const petsArray = getPetz();
-        if (type === 'cat') {
+        if (type === 'Cat') {
             const filteredPets = petsArray.filter(x => x.type === type);
             petBuilder(filteredPets);
     } else {
-        if (type === 'dog') {
+        if (type === 'Dog') {
             const filteredPets = petsArray.filter(x => x.type === type);
             petBuilder(filteredPets);
         }
     }  {
-        if (type === 'dino') {
+        if (type === 'Dino') {
             const filteredPets = petsArray.filter(x => x.type === type);
             petBuilder(filteredPets);
         }
@@ -22,10 +22,6 @@ const sortPets = (e) => {
             petBuilder(petsArray);
         }
     };
-
-
-
-
 
 const sortEvents = () => {
     const catsButton = document.getElementById('cat');
