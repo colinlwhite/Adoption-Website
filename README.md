@@ -2,20 +2,19 @@
 
 ## Technologies Used:
 
- .  * HTML5 
-    * CSS 
-    * JavaScript 
-    * Bootstrap 4 
-    * ES6 Modules
+ * HTML5 
+ * CSS 
+ * JavaScript 
+ * Bootstrap 4 
+ * ES6 Modules
+ * jQuery
 
 ## Description 
 
-We were in charge of bringing the Hogwarts sorting hat to life!
-
-To start off with, we used a bootstrap jumbotron to have our sorting hat introduce itself and start the sorting process (by clicking on a button). A bootstrap form appeared to fill in the student's name and a button to sort. This assigned the student to a random house (Gryffindor, Hufflepuff, Ravenclaw, or Slytherin). On sorting a student, the form cleared and a bootstrap card with the student's name and house printed below the form. You can expel a student after they have been sorted, which removes their card from the student record.
+We displayed three category(type) buttons printed at the top of the page. Each button is a different color. They are hard-coded. You can click one of the 3 buttons, then only the cards that are in the category(type) will show. The "reset" button allows you to unfilter the results.
 
 ## Screenshots
-![Screenshot Image](sorting.png)
+![Screenshot Image](adopt.png)
 
 
 ## Instructions 
